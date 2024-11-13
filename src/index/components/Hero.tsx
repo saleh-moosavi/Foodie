@@ -17,7 +17,7 @@ export default function Hero() {
             <br />
             Chicken Wings
           </h2>
-          <p className="text-gray-500 text-justify">
+          <p className="text-gray-500 text-justify font-semibold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
             error a totam, magni impedit soluta tempora temporibus tempore
             molestias.
