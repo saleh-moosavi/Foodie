@@ -1,4 +1,5 @@
 import BannerOne from "./components/BannerOne";
+import BannerTwo from "./components/BannerTwo";
 import Categories from "./components/Categories";
 import Hero from "./components/Hero";
 import InstaReviews from "./components/InstaReviews";
@@ -14,6 +15,7 @@ export default function Index() {
       <BannerOne />
       <InstaReviews />
       <TryThis />
+      <BannerTwo />
     </div>
   );
 }
