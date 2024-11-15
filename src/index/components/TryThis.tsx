@@ -2,7 +2,7 @@ import TryThisItem from "./TryThisItem";
 
 export default function TryThis() {
   return (
-    <div className="xl:max-w-7xl xl:mx-auto my-20 px-5">
+    <div className="xl:max-w-7xl xl:mx-auto my-20 px-5 md:px-0">
       <section className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         <h2 className="text-2xl md:text-4xl font-bold">
           Try This Delicous Recipe to make your day

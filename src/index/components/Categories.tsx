@@ -2,7 +2,7 @@ import CategoriesItem from "./CategoriesItem";
 
 export default function Categories() {
   return (
-    <div className="flex flex-col xl:max-w-7xl xl:mx-auto my-20 px-5">
+    <div className="flex flex-col xl:max-w-7xl xl:mx-auto my-20 px-5 md:px-0">
       <article className="flex justify-between items-center">
         <h2 className="md:text-4xl font-bold">Categories</h2>
         <button className="bg-sky-100 px-3 py-2 md:px-6 md:py-3 text-xs md:text-base rounded-2xl font-semibold">
