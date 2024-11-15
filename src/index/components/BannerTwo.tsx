@@ -1,11 +1,11 @@
 export default function BannerTwo() {
   return (
-    <div className="flex items-center justify-center xl:max-w-7xl xl:mx-auto my-20 overflow-hidden bg-sky-100 rounded-[2.5rem] relative">
+    <div className="flex items-center justify-center xl:max-w-7xl xl:mx-auto my-20 overflow-hidden bg-sky-100 rounded-[2.5rem] relative mx-5">
       <article className="p-10 flex flex-col justify-center items-center">
-        <h2 className="text-5xl font-bold leading-snug my-5">
+        <h2 className="text-3xl md:text-5xl font-bold leading-snug my-5 text-center">
           Deliciousness To Your Inbux
         </h2>
-        <p className="text-gray-500 font-semibold max-w-xl text-center">
+        <p className="text-gray-500 text-xs md:text-base font-semibold max-w-xl text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
           error a totam, magni impedit soluta tempora temporibus tempore
           molestias.
@@ -22,11 +22,11 @@ export default function BannerTwo() {
         </label>
       </article>
       <img
-        className="absolute -bottom-5 -left-10"
+        className="absolute top-40 -left-12 md:-left-10"
         src="https://images.rawpixel.com/image_trimmed_png_150/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczk5LW1uLXF1aW5vYS1ib3dsLTEucG5n.png"
       />
       <img
-        className="absolute -bottom-5 -right-10"
+        className="absolute -top-9 md:top-52 -right-12 md:-right-10"
         src="https://images.rawpixel.com/image_trimmed_png_150/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbGlmZW9mcGl4MDAwMDEtaW1hZ2VfMS1renhsdXd3ci5wbmc.png"
       />
     </div>
