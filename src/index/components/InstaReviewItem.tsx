@@ -26,13 +26,15 @@ export default function InstaReviewItem() {
           src="https://www.thespruceeats.com/thmb/CWfeSCngoL5zOxlR2tsBWETtZ3U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-chicken-wings-912937-hero-01-6c1a003373a54538a732abc0005145d8.jpg"
         />
         <GoKebabHorizontal className="absolute bottom-0 right-[50%] translate-x-1/2 text-gray-100 w-8 h-8" />
-        <p className="absolute top-0 right-0 bg-black/70 rounded-full text-white text-xs px-2 pb-1 pt-[.2rem] m-2">1/9</p>
+        <p className="absolute top-0 right-0 bg-black/70 rounded-full text-white text-xs px-2 pb-1 pt-[.2rem] m-2">
+          1/9
+        </p>
       </section>
       <section className="flex justify-between px-2 items-center py-2">
         <div className="grid grid-cols-3 gap-2 items-center">
-          <BiHeart className="w-5 h-5"/>
-          <FaRegComment className="w-4 h-4"/>
-          <BsSend className="w-4 h-4"/>
+          <BiHeart className="w-5 h-5" />
+          <FaRegComment className="w-4 h-4" />
+          <BsSend className="w-4 h-4" />
         </div>
 
         <FiBookmark className="h-5 w-5" />
