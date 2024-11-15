@@ -29,9 +29,12 @@ export default function Header() {
 
       {/* mobile menu */}
       <article
-        className={`fixed inset-0 left-1/2 z-50 bg-white pt-5 shadow-lg md:hidden transition-all duration-300 translate-x-${
-          isSideBar ? "0" : "full"
-        } `}
+        className="fixed inset-0 left-1/2 z-50 bg-white pt-5 shadow-lg md:hidden transition-all duration-300"
+        style={
+          isSideBar
+            ? { transform: "translateX(0%)" }
+            : { transform: "translateX(100%)" }
+        }
       >
         <CgClose
           className="cursor-pointer text-xl ms-5 hover:text-rose-600 hover:rotate-180 transition-all duration-300"

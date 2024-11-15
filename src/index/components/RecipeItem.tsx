@@ -13,15 +13,15 @@ export default function RecipeItem() {
         <FaHeart className="absolute top-2 right-2 bg-white rounded-full w-10 h-10 p-3 fill-gray-300 hover:fill-rose-500 cursor-pointer transition-all divide-blue-400" />
       </div>
       <div className="mt-7 mb-2">
-        <h3 className="font-bold text-lg line-clamp-2 text-justify">
+        <h3 className="font-bold md:text-lg line-clamp-2 text-justify">
           Big And Juicy meat with some of more
         </h3>
         <div className="flex gap-x-5 mt-5 font-semibold">
-          <p className="flex gap-x-2 items-center text-gray-500">
+          <p className="flex gap-x-2 items-center text-xs md:text-base text-gray-500">
             <CgSandClock className="w-5 h-5 text-black" />
             30 Minutes
           </p>
-          <p className="flex gap-x-2 items-center text-gray-500">
+          <p className="flex gap-x-2 items-center text-xs md:text-base text-gray-500">
             <PiForkKnifeFill className="w-5 h-5 text-black" />
             Chicken
           </p>
